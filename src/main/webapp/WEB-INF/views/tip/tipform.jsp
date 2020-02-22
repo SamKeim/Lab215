@@ -10,7 +10,7 @@
 <body>
 <h1>Tip Calculator</h1>
 <h2>Calculator</h2>
-<form method="post" action="/tip/tip-result">
+<form method="post" action="/tip/result">
 
 <p>Amount of Bill:
 <input type="number" name="bill" min="5" max="300" step="1">

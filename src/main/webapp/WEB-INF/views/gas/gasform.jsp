@@ -10,7 +10,7 @@
 
 <h1>Gas Mileage</h1>
 <h2>Calculator</h2>
-<form method="post" action="/gas/mileage-result">
+<form method="post" action="/gas/result">
 
 <p>Miles Per Gallon (MPG):
 <input type="number" name="mpg" min="5" max="70" step="0.5">
@@ -20,8 +20,8 @@
 <input type="number" name="gallons" min="0.5" max="300" step="0.5">
 </p>
 
-<p>Trip Distance:
-<input type="number" name="distance" min="5" max="2100" step="5">
+<p>Trip Distance (0 if N/A):
+<input type="number" name="distance" min="0" max="2100" step="5" value="0">
 </p>
 <input type="submit" value="How far can you go?" />
 

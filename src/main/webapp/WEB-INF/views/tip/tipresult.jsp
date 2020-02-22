@@ -19,7 +19,7 @@
 <p>Tip Amount: <fmt:formatNumber value="${ result }" type="currency" /></p>
 
 <p><a href="/">Home</a></p>
-<p><a href="/tip/tip-form">Calculate another bill</a></p>
+<p><a href="/tip/">Calculate another bill</a></p>
 
 </body>
 </html>
