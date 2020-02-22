@@ -9,6 +9,7 @@
 <body>
 <h1>Gas Mileage</h1>
 <h2>Results!</h2>
+
 <p>Miles Per Gallon (MPG): ${ mpg }</p>
 <p>Gallons in Tank: ${ gallons }</p>
 <p>Distance Available: ${ range }</p>
